@@ -65,6 +65,11 @@ nav img{
     height: 430px;
     text-align: center;
 }
+#teste{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .card:hover{
     scale: 1.1;
     margin: 0 25px 10px;
