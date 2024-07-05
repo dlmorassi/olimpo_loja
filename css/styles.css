@@ -8,11 +8,11 @@
     font-family: 'Inter', sans-serif;
 }
 body{
-    background-color: #DAA520;
+    background-color: #A9A9A9;
 }
 header{
     padding: 15px 0;
-    background-color: #000000;
+    background-color: #808080;
 }
 nav{
     display: flex;
@@ -61,18 +61,29 @@ nav img{
     transition: 0.9s;
     border-radius: 2px;
     cursor: pointer;
+    width: 300px;
+    height: 430px;
+    text-align: center;
 }
 .card:hover{
     scale: 1.1;
     margin: 0 25px 10px;
 }
 .card img{
-    width: 300px;
-    border-bottom: #000000 solid 1px;
+    height: 300px;
+    margin: 5px 0;
 }
 .card h1{
     margin: 15px 0 15px;
     color: #000000;
+}
+.card p{
+    margin: 0 0 15px;
+    bottom: 0;
+}
+#g15{
+    width: 300px;
+    height: auto;
 }
 .contato{
     text-align: center;
@@ -102,7 +113,7 @@ footer{
     padding: 15px 0;
     display: flex;
     justify-content: center;
-    background-color: #000000;
+    background-color: #808080;
 }
 footer i{
     margin: 0 5px;
